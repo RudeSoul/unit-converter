@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html lang="en">
+<head >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
+
+  <title>CalcGen Solutions-converter</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="jumbotron.css" rel="stylesheet">
+</head>
+
+<body background="1.jpg">
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">CalcGen</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://calcgen.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">About Us</a>
+            <a class="dropdown-item" href="#">Contact Us</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <h1 align="text-center-xs">Converter</h1>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-8">
+        	<br /><br />
+          <h2 style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Heat Flux Converter</h2>
+          <form>
+  <h3 ><a >Value of <a style="color:red">{{ value }}  </a> btu/hr.ft2<br /> <br />In watt/m<suff>2</suff> : <a style="text-shadow: 0 0 3px #FF0000;"> {{ ans }} </a> </a>
+
+  </h3></form>
+
+  <h4>
+    
+    
+  <br />
+  <form action="{% url 'home' %}"><br><a class="nav-item nav-link"><input class="btn btn-secondary" type="submit" value="Return Home"></a></br></form>
+  </h4>
+        </div>
+      </div>
+
+      <hr>
+
+    </div> <!-- /container -->
+
+  </main>
+
+  <footer class="text-center-xs space--xs bg--dark">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-7">
+                  <ul class="list-inline">
+                      <li class="list-inline-item"> <a href="aboutus.html" target="_self"><span class="h6 type--uppercase">About</span></a> </li>
+                      <li class="list-inline-item"> <a href="careers.html" target="_self"><span class="h6 type--uppercase">Careers</span></a> </li>
+                      <li class="list-inline-item"> <a href="support.html" target="_self"><span class="h6 type--uppercase">Support</span></a> </li>
+                  </ul>
+              </div>
+              <div class="col-sm-5 text-right text-center-xs">
+                  <ul class="social-list list-inline list--hover">
+                      <li><a href="#"><i class="socicon icon socicon-linkedin icon--xs"></i></a></li>
+                      <li><a href="#"><i class="socicon icon socicon-youtube icon--xs"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-7"> <span class="type--fine-print">© <span class="update-year">2018</span> CalcGen Solutions LLC.</span> <a class="type--fine-print" href="privacy-policy.html" target="_self">Privacy Policy</a> <a class="type--fine-print" href="legal-notices.html" target="_self">Legal</a><a class="type--fine-print" href="terms-and-conditions.html" target="_self">Terms and Conditions</a> </div>
+              <div class="col-sm-5 text-right text-center-xs"> <a class="type--fine-print" href="#">support@CalcGen.com</a> </div>
+          </div>
+      </div>
+  </footer>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
